@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <nav>
+      <a href="#home">Головна</a>
+      <a href="#system">Про систему</a>
+      <a href="#benefits">Переваги</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="home" id="home">
+      <img src="img/house.jpg" alt="Будинок, який відчуває тебе" class="home__img">
+      <div class="home__overlay"></div>
+      <h1 class="home__title">Дім із власним серцем.<br>Більше ніж стіни.</h1>
+    </section>
+
+
+
+
+
+    <section class="intro container">
+      <p>
+        Дім, який відчуває тебе<br>
+        Справжній інтелект. Абсолютна турбота. Персональний комфорт.<br>
+        Ми створили не просто систему «розумного дому» — ми надали оселі душі та характеру.
+        Наша система постійно аналізує ваші самопочуття, рівень стресу та настрій,
+        щоб створити ідеальний мікроклімат і підтримати вас у потрібний момент.
+      </p>
+    </section>
+
+    
+
+
+
+
+    <section class="how container" id="system">
+      <h2 class="section-title">Як це працює?</h2>
+
+      <div class="cards">
+        <article class="card card--grey">
+          <h3>Сенсорний аналіз</h3>
+          <p>Біометрія<br>Голос</p>
+        </article>
+        <article class="card card--beige">
+          <h3>Оцінка стану</h3>
+          <p>Настрій<br>Пульс</p>
+        </article>
+        <article class="card card--grey">
+          <h3>Автоматична адаптація</h3>
+          <p>Світло<br>Клімат<br>Діалог</p>
+        </article>
+      </div>
+
+      <div class="text-block">
+        <h3>Безконтактне зчитування метрик</h3>
+        <p>Камери високої точності та датчики аналізують вираз обличчя, тембр голосу, частоту дихання та загальну рухову активність.</p>
+      </div>
+
+      <div class="text-block">
+        <h3>Аналіз емоційного стану</h3>
+        <p>Алгоритми штучного інтелекту визначають, чи ви виснажені після робочого дня, розслаблені, фокусуєтеся на роботі чи потребуєте підтримки.</p>
+      </div>
+
+      <div class="text-block">
+        <h3>Миттєва адаптація простору</h3>
+        <p>Система самостійно підбирає освітлення, температуру, музичний супровід та може вступити в діалог.</p>
+      </div>
+    </section>
+
+    
+
+
+    <section class="gallery container">
+      <div class="carousel" data-per-view-desktop="2" data-per-view-tablet="2" data-per-view-mobile="1">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Назад">&#10094;</button>
+        <div class="carousel__track">
+          <figure class="slide slide--photo"><img src="img/1.jpg" alt="Вітальня з камерою та каміном"></figure>
+          <figure class="slide slide--photo"><img src="img/2.jpg" alt="Центральний блок системи"></figure>
+          <figure class="slide slide--photo"><img src="img/3.jpg" alt="Діти грають у кімнаті"></figure>
+        </div>
+        <button class="carousel__btn carousel__btn--next" aria-label="Вперед">&#10095;</button>
+      </div>
+    </section>
+
+    
+
+
+    <section class="benefits container" id="benefits">
+      <h2 class="section-title section-title--left">Переваги</h2>
+
+      <div class="carousel" data-per-view-desktop="3" data-per-view-tablet="2" data-per-view-mobile="1">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Назад">&#10094;</button>
+        <div class="carousel__track">
+          <article class="slide slide--card card--beige">
+            <h3>Безперервний нагляд і безпека дітей</h3>
+            <p>система контролює активність, пульс та настрій під час ігор, сповіщаючи батьків про незвичний стан або втому.</p>
+          </article>
+          <article class="slide slide--card card--grey">
+            <h3>Емоційна адаптація простору</h3>
+            <p>автоматичне підлаштування освітлення, температури та фонового звуку під поточні емоції жителів (від розслаблення до концентрації).</p>
+          </article>
+          <article class="slide slide--card card--grey">
+            <h3>Моніторинг здоров'я та стресу</h3>
+            <p>безконтактний збір біометричних даних (пульс, рівень напруги, якість сну) для підтримки оптимального самопочуття.</p>
+          </article>
+          <article class="slide slide--card card--beige">
+            <h3>Емпатичний голосовий діалог</h3>
+            <p>дружня взаємодія, де дім спілкується природним тоном, ставить доречні запитання або пропонує відпочинок.</p>
+          </article>
+          <article class="slide slide--card card--grey">
+            <h3>Повна автономність</h3>
+            <p>мінімізація ручного керування через додатки чи вимикачі: завдяки самостійному аналізу потреб родини.</p>
+          </article>
+        </div>
+        <button class="carousel__btn carousel__btn--next" aria-label="Вперед">&#10095;</button>
+      </div>
+    </section>
+
+    
+
+    
+    <section class="contacts container" id="contacts">
+      <h2 class="section-title">Контакти</h2>
+
+      <div class="contacts__box">
+        <div class="contacts__phone">
+          <span>Зателефонуйте нам</span>
+          <a href="tel:+380977391530">+380 97 739 15 30 </a>
+        </div>
+
+        <form class="contacts__form" id="feedbackForm" novalidate>
+          <label for="email">Залиште пошту — ми зв'яжемося з вами</label>
+          <div class="contacts__row">
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            <button type="submit">Надіслати</button>
+          </div>
+          <p class="contacts__msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 ZAKORA VITA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
